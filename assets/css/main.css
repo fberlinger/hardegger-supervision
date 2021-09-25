@@ -50,8 +50,8 @@ body{
 @media (min-width: 778px)
 {
 		.main{
-			height: 100vh;
-			overflow: hidden;
+			height: 200vh;
+			overflow: visible;
 		}
 
 		.img-rabbit{

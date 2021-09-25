@@ -9,18 +9,21 @@ $( document ).ready(function() {
                     $("#angebot_scroll").fadeIn();
                     $('#angebot_left').addClass('animated slideInLeft');
                     $('#angebot_right').addClass('animated slideInRight');
+                    $('html, body').animate({ scrollTop: 0 }, 'fast');
                     });
                 $("#persönlich").click(function(){
                     $("#index").fadeOut();
                     $("#persönlich_scroll").fadeIn();
                     $('#persönlich_left').addClass('animated slideInLeft');
                     $('#persönlich_right').addClass('animated slideInRight');
+                    $('html, body').animate({ scrollTop: 0 }, 'fast');
                     });
                 $("#kontakt").click(function(){
                     $("#index").fadeOut();
                     $("#kontakt_scroll").fadeIn();
                     $('#kontakt_left').addClass('animated slideInLeft');
                     $('#kontakt_right').addClass('animated slideInRight');
+                    $('html, body').animate({ scrollTop: 0 }, 'fast');
                     });
                 
                 $(".back").click(function(){
