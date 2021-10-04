@@ -1,2 +1,2 @@
 # www.hardegger-supervision.ch
-My personal academic website that I update regularly.
+Website for Hardegger Supervision that I am hosting and maintaining.
